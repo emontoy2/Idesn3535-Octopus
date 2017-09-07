@@ -1,0 +1,17 @@
+	body {
+		font-family: 'Open Sans Condensed', sans-serif; 
+	} 
+
+	#my-header {
+		color: #ff0000;
+	}
+	.my-list-item{
+		font-size: 27px;
+	}
+	.my-list-item a: {
+		color: #FFB212;
+	}
+	.my-list-item a:hover {
+		color: #FFB212;
+	}
+
