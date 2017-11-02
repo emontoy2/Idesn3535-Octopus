@@ -1,17 +1,36 @@
 	body {
-		font-family: 'Open Sans Condensed', sans-serif; 
+		font-family: 'Open Sans Condensed', sans-serif;
+			background-image: url("http://goldwallpapers.com/uploads/posts/octopus-background/octopus_background_019.jpg");
+    		background-repeat: no-repeat;
+    		background-attachment: fixed;
 	} 
 
 	#my-header {
 		color: #ff0000;
+		font-size: 58px;
+		font-family: 'Poiret One', cursive;
+		margin-left: 60px;
 	}
 	.my-list-item{
-		font-size: 27px;
+		font-size: 20px;
+		font-family: 'IM Fell DW Pica', serif;
+		margin: 60px;
+		margin-left: 100px;
+		  height: 100px;
+		  width: 400px;
+  border-radius: 50%;
+  font-size: 50px;
+  color: #fff;
+  line-height: 100px;
+  text-align: center;
+  text-decoration: fixed;
+  background: #000
 	}
 	.my-list-item a: {
 		color: #FFB212;
 	}
-	.my-list-item a:hover {
+	.my-list-item:hover {
 		color: #FFB212;
+		font-size: 40px;
 	}
 

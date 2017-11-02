@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>colors</title>
+
+	<style>
+	#add-blue {
+    background-color: #3871A3;
+    border: none;
+    color: white;
+    margin: auto;
+    margin-left: 50px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+	#add-red {
+    background-color: #FF7B96;
+    border: none;
+    color: white;
+    margin: auto;
+    margin-left: 50px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#add-yellow {
+    background-color: #FFF1A8;
+    border: none;
+    color: white;
+    margin: auto;
+    margin: 50px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+	#splotch {
+		width: 100px;
+		height: 100px;
+		border-radius: 100px;
+		margin: auto;
+		border: 1px solid #000;
+		margin-top: 100px;
+	}
+	#splotch.red {
+		background: #FF7B96;
+	}
+	#splotch.blue {
+		background: #3871A3;
+	}
+	#splotch.yellow {
+		background: #FFF1A8;
+	}
+	#splotch.red.blue {
+		background: #C8B2FF;
+	}
+	#splotch.blue.yellow {
+		background: #78E5B3;
+	}
+	#splotch.red.yellow {
+		background: #FF9C38;
+	}
+	#splotch.red.blue.yellow {
+		background: #000000;
+	}
+	#add-blue.focus{
+		background: #234666;
+	}
+	#add-red.focus{
+		background: #A32937;
+	}
+	#add-yellow.focus{
+		background: #C2B270;
+	}
+	</style>
+</head>
+<body>
+
+<button id="add-blue">Add Blu</button>
+	<script>
+	function moosh(){
+		console.log("blue")
+	const splotch = document.getElementById("splotch")
+	splotch.classList.toggle("blue")
+	addBlue.classList.toggle("focus")
+	}
+	const addBlue = document.getElementById("add-blue");
+	addBlue.addEventListener('click', moosh);
+	</script>
+<button id="add-red">Add Rad</button>
+	<script>
+	function smoosh(){
+		console.log("red")
+		const splotch = document.getElementById("splotch")
+	splotch.classList.toggle("red")
+	addRed.classList.toggle("focus")
+	}
+	const addRed = document.getElementById("add-red");
+	addRed.addEventListener('click', smoosh);
+	</script>
+<button id="add-yellow">Add Jellow</button>
+	<script>
+	function woosh(){
+		console.log("yellow")
+		const splotch = document.getElementById("splotch")
+	splotch.classList.toggle("yellow")
+	addYellow.classList.toggle("focus")
+	}
+	const addYellow = document.getElementById("add-yellow");
+	addYellow.addEventListener('click', woosh);
+	</script>
+
+<div id="splotch"></div>
+
+</body>
+</html>

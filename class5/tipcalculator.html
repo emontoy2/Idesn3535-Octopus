@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tip Calculator</title>
+    <style type="text/css">
+        #container {
+            width: 400px;
+            height: 600px;
+            background-color: gray;
+            margin: auto;
+            border-radius: 10%;
+        
+        }
+        #bill {
+            width: 300px;
+            height:50px;
+            background-color: white;
+            margin-left: 50px;
+            text-align: center;
+        }
+
+        h1 {
+            color: white;
+            font-size: 20px;
+            text-align: center;
+        
+        }
+
+        button {
+            width: 60px;
+            height: 60px;
+            margin-top: 30px;
+            margin-left: 30px;
+            border-radius: 20%;
+        }
+
+        #equal {
+            width: 40px;
+            height: 10px;
+            background-color: white;
+            margin: auto;
+            margin-top: 30px;
+        }
+
+        #equal2 {
+            width: 40px;
+            height: 10px;
+            background-color: white;
+            margin: auto;
+            margin-top: 10px;
+        }
+
+        #tiptotal{
+
+            width: 300px;
+            height: 100px;
+            background-color: white;
+            margin: auto;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+            h2{
+                width: 300px;
+                height: 61px;
+                color: white;
+                margin:auto;
+                margin-top: 20px;
+                text-align: center;
+                font-size: 61px;
+                font-family: sans-serif;
+
+            }
+
+            #finito {
+                width: 300px;
+                height: 50px;
+                background-color: red;
+                margin: auto;
+                margin-top: 25px;
+                font-size: 30px;
+                text-align: center;
+                color: white;
+                text-decoration: underline;
+                padding-top: 5px;
+            }
+    </style>
+        </head>
+        
+    
+        
+<body>
+
+    <div id="container">
+        <h1>Tip Calculator</h1>
+        <input id= "bill", type="number"></input>
+
+        <form action="javascript:void(calc())">
+        Amount: $<input id="bill" type="text">
+        <br>
+        <input type="submit" value="Calculate">
+        <br>
+        Tip: <span id="tip"></span>
+        <br>
+        Total: <span id="total"></span>
+    	</form>
+        
+
+        <button id="ten">10%</button>
+        <button id="fifteen">15%</button>
+        <button id="">20%</button>
+        <button>custom</button>
+
+
+    <div id="equal"></div>
+    <div id="equal2"></div>
+
+    <div id="tiptotal"></div>
+
+    <h2> YOU OWE</h2>
+<div id="finito"> $$$$$$</div>
+    </div>
+
+<script>
+ 
+    const bill= document.getElementById("bill")   
+    bill.addEventListener("keyup",function(){
+        console.log(bill.value)
+    })
+
+    
+    button.addEventListener('click', function(){
+    })
+
+</script>
+
+</body>
+</html>

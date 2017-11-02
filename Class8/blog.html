@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blog</title>
+
+	<link rel="stylesheet" type="text/css" href="../normalize.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="templetengine.js"></script>
+	<script src="templates.js.html"></script>
+
+	<script>
+		$(document).ready(function(){
+
+		});
+	</script>
+</head>
+<body>
+	<script>
+		$(document).ready(function(){
+			$("body").prepend( getTemplate(headerTemplate, {class: 'blog', title: 'Blog'}) );
+		});
+	</script>
+	<p>blogging blog is blogging</p>
+
+	<script>
+		$(document).ready(function(){
+			$("body").prepend( getTemplate(footerTemplate, {class: 'footer'}) );
+		});
+	</script>
+
+
+</body>
+</html>

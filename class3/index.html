@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript!</title>
+</head>
+
+<script type="text/javascript">
+
+	let javascriptInfo = "Javascript does have a purpose!";
+	console.log(javascriptInfo + "C:");
+	console.log(45);
+	console.log(true);
+	console.log(undefined);
+
+	if (javascriptInfo === 5) {
+		console.log('yay!')
+	} else {
+		console.log('boo')
+	}
+	//returns the factorial of the input
+	function factorial (input){
+
+
+		const myInput = document.getElementById("my-input");
+		input = myInput.value;
+		
+		//Definition of a factorial:
+		//3! = 3 * 2 * 1 = 6
+
+		let returnValue =1;
+		while (input > 0){
+			//returnValue = returnValue * input;
+			returnValue *= input
+			//input = input - 1;
+		}
+
+		alert("The factorial of" + input + "! =" + returnValue);
+
+		return returnValue;
+	}
+	
+</script>
+
+<body>
+	<h1>
+		JavaScript!
+	</h1>
+
+	<input type="text" id="my-input" />
+	<button id="factorial-button">
+	Calculate Factorial!	
+	</button>
+
+	<script>
+	const factorialButton = document.getElementById("factorial-button");
+	factorialButton.addEventListener('click', factorial);
+	</script>
+
+</body>
+</html>
