@@ -1,0 +1,25 @@
+body {
+		font-family: 'Open Sans Condensed', sans-serif;
+			background-image: url("https://www.newstatesman.com/sites/default/files/styles/thumb_730/public/blogs_2017/11/2017_44_obs_newsmaker_octopus.jpg?itok=uf0K1BYM");
+    		background-repeat: no-repeat;
+    		background-attachment: fixed;
+    		background-size: 1400px 1000px;
+
+}
+
+.click {
+	font-size: 20px;
+		font-family: 'IM Fell DW Pica', serif;
+		margin: 60px;
+		margin-left: 100px;
+		  height: 100px;
+		  width: 400px;
+  border-radius: 50%;
+  font-size: 50px;
+  color: #FFCE79;
+  line-height: 100px;
+  text-align: center;
+  text-decoration: fixed;
+  background: #409C85;
+
+}
